@@ -1,0 +1,61 @@
+/* Barra de navegacion */
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #e8e8e8;
+
+}
+header{
+
+    padding: auto;
+margin: auto;
+display: block;
+margin-left: -20px;
+margin-top: -10px;
+
+
+}
+
+.menu{
+    list-style: none;
+    
+    background: #092327;
+    width: 100%;
+    margin: auto;
+	float: left;
+    
+   
+	
+	
+	
+}
+.menu li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+}
+.menu >li{
+    float: left;
+    text-align: center;
+    background: #092327;
+   
+}
+.menu li a:hover{
+    background: #ef8354;
+}
+.menu li>ul{
+    display: none;
+    position:absolute;
+    min-width: 140px;
+}
+.menu li:hover > ul{
+    list-style: none;
+    display:block ;
+    background: #092327;
+    padding: 0px;
+    
+}
+
+
+
